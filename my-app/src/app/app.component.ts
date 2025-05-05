@@ -21,7 +21,7 @@ export class AppComponent {
 
   inProgressItems = computed(() => {
     const tasks = this.tasks();
-    return tasks.filter((x) => x.status === 'InProgress');
+    return tasks.filter((x) => x.status === 'In Progress');
   });
 
   completedItems = computed(() => {
